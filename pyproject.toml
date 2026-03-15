@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "studyctl"
+version = "0.1.0"
+description = "A CLI tool for studying"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Erick L.", email = "ecklpz@gmail.com"}
+]
+
+[project.scripts]
+studyctl = "studyctl.cli:main"
